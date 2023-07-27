@@ -1,0 +1,85 @@
+head,body{
+    padding:0;
+    margin:0;
+}
+.total{
+    width: auto;
+    margin: 5px 5px 5px 5px;
+    height:620px;
+    border: 2px solid black;
+    display: flex;
+}
+.left{
+    background-color: brown;
+    height:95%;
+    width:20%;
+    margin: 5px 5px 5px 5px;
+    border: 2px solid black;
+}
+.left .left-one{
+    height:45%;
+    width:auto;
+    margin: 5px 5px 5px 5px;
+    background-color: red;
+    border:2px solid black;
+
+}
+.left .left-two {
+    height: 45%;
+    width: auto;
+    margin: 35px 5px 5px 5px;
+    background-color: blue;
+    border: 2px solid black;
+}
+.main{
+    height:95%;
+    margin: 5px 5px 5px 5px;
+    background-color:orange;
+    border: 2px solid black;
+    width:60%;
+}
+.main .main-one{
+    margin: 20px 5px 5px 5px;
+    height:90%;
+    width:auto;
+    border:2px solid black;
+}
+.main .main-one .inner-one{
+    height: 20%;
+    width: auto;
+    margin: 5px 5px 5px 5px;
+    background-color: black;
+    border: 2px solid black;
+}
+
+.main .main-one .inner-two{
+    margin: 5px 5px 5px 5px;
+    margin-top:30px;
+    height: 72%;
+    width: auto;
+    background-color: black;
+}
+.right{
+    height: 95%;
+    background-color: brown;
+    border: 2px solid black;
+    width: 20%;
+    margin: 5px 5px 5px 5px;
+
+}
+.right .right-one {
+    height: 45%;
+    margin: 5px 5px 5px 5px;
+    width: auto;
+    background-color: red;
+    border: 2px solid black;
+
+}
+
+.right .right-two {
+    height: 45%;
+    width: auto;
+    margin: 35px 5px 5px 5px;
+    background-color: blue;
+    border: 2px solid black;
+}
