@@ -1,0 +1,65 @@
+html,body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(93, 126, 226);
+}
+.cen{
+    color:mediumpurple;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color:lightblue;
+    border: 1px solid black;
+    margin-bottom:5px;
+    padding:1px;
+    text-align: center;
+    height:60px;
+}
+
+.header2{
+    text-align: center;
+    background-color: mediumvioletred;
+    height:25px;
+}
+
+#education-details {
+    background-color: lightgreen;
+    border: 1px solid blue;
+    margin-bottom: 5px;
+    padding: 1px;
+    height:120px;
+}
+.acc{
+    background-color: blueviolet;
+    border:1px solid greenyellow;
+    margin-bottom: 5px;
+    padding: 1px;
+    height:70px;
+}
+.intern{
+    background-color: lightcoral;
+    border:1px solid violet;
+    margin-bottom: 5px;
+    padding: 1px;
+    height:70px;
+}
+/*text align */
+.contact{
+    background-color:yellowgreen;
+    border: 1px solid rgb(27, 2, 92);
+    margin-bottom: 5px;
+    padding: 1px;
+    height: 90px;
+}
+/*flex */
+/* justify-content : place your content any where horizontally */
+/* align-item : place your content any where vertically*/
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: blanchedalmond;
+}
